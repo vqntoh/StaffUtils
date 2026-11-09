@@ -1,6 +1,0 @@
-name: StaffUtils
-version: '1.0'
-
-main: me.simonevtw.staffUtils.Main
-api-version: '1.21.8'
-load: POSTWORLD
