@@ -1,0 +1,122 @@
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# IntelliJ workspace
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+.idea/**/dictionaries/
+.idea/**/contentModel.xml
+
+# ==========================================
+# Eclipse
+# ==========================================
+
+.project
+.classpath
+.settings/
+.metadata/
+.loadpath
+.factorypath
+.springBeans
+.sts4-cache/
+
+# Eclipse user-specific files
+*.launch
+*.prefs
+
+# ==========================================
+# Maven
+# ==========================================
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# ==========================================
+# Gradle
+# ==========================================
+
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ==========================================
+# Java compiled files
+# ==========================================
+
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ==========================================
+# Logs and temporary files
+# ==========================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# OS generated files
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+
+# ==========================================
+# IDE caches and local tooling
+# ==========================================
+
+.vscode/
+*.code-workspace
+.nb-gradle/
+.cache/
+
+# ==========================================
+# Environment and local configuration
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+
+*.orig
+*.rej
+*.pid
+*.seed
+*.stackdump
