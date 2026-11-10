@@ -19,7 +19,7 @@ public class ChatFormatter {
             .build();
 
     public static Component getTpMessage(String name) {
-        return deserialize("<hover:show_text:<green>Clicca per teletrasportarti dal giocatore</green>><click:run_command:/tp " + name + "><green>[Clicca qui per teletrasportarti]</click></hover>");
+        return deserialize("<hover:show_text:'<green>Clicca per teletrasportarti dal giocatore'><click:run_command:/tp " + name + "><green>[Clicca qui per teletrasportarti]</click></hover>");
     }
 
     public static Component serverMessage(String text, boolean unsafe) {
